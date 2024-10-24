@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="stylePiano.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="Piano">
+        <div class="keys">
+            <div class="white-keys">
+                <div onclick="jsNota(261.63)" class="do white"><span class="no-select">do</span></div>
+                <div onclick="jsNota(293.66)" class="re white"><span class="no-select">re</span></div>
+                <div onclick="jsNota(329.63)" class="mi white"><span class="no-select">mi</span></div>
+                <div onclick="jsNota(349.23)" class="fa white"><span class="no-select">fa</span></div>
+                <div onclick="jsNota(392.00)" class="sol white"><span class="no-select">sol</span></div>
+                <div onclick="jsNota(440.00)" class="la white"><span class="no-select">la</span></div>
+                <div onclick="jsNota(493.88)" class="si white"><span class="no-select">si</span></div>
+                <div onclick="jsNota(523.25)" class="do8 white"><span class="no-select">do8</span></div>
+            </div>
+    
+            <div class="black-keys">
+                <div onclick="jsNota(277.18)" class="doS black"><span class="no-select">do#</span></div>
+                <div onclick="jsNota(311.13)" class="reS black"><span class="no-select">re#</span></div>
+                <div onclick="jsNota(369.99)" class="faS black"><span class="no-select">fa#</span></div>
+                <div onclick="jsNota(415.30)" class="solS black"><span class="no-select">sol#</span></div>
+                <div onclick="jsNota(466.16)" class="laS black"><span class="no-select">la#</span></div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <script src="js/teclas.js"></script>
+</body>
+</html>
