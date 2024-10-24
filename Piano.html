@@ -7,32 +7,27 @@
     <link rel="stylesheet" href="stylePiano.css">
 </head>
 <body>
-    <header>
-
-    </header>
     <div class="Piano">
         <div class="keys">
             <div class="white-keys">
-                <div onclick="jsNota(261.63)" class="do white"><span class="no-select">do</span></div>
-                <div onclick="jsNota(293.66)" class="re white"><span class="no-select">re</span></div>
-                <div onclick="jsNota(329.63)" class="mi white"><span class="no-select">mi</span></div>
-                <div onclick="jsNota(349.23)" class="fa white"><span class="no-select">fa</span></div>
-                <div onclick="jsNota(392.00)" class="sol white"><span class="no-select">sol</span></div>
-                <div onclick="jsNota(440.00)" class="la white"><span class="no-select">la</span></div>
-                <div onclick="jsNota(493.88)" class="si white"><span class="no-select">si</span></div>
-                <div onclick="jsNota(523.25)" class="do8 white"><span class="no-select">do8</span></div>
+                <div onclick="jsNota(261.63); activarTecla('.do')" class="do white"><span class="no-select">do</span></div>
+                <div onclick="jsNota(293.66); activarTecla('.re')" class="re white"><span class="no-select">re</span></div>
+                <div onclick="jsNota(329.63); activarTecla('.mi')" class="mi white"><span class="no-select">mi</span></div>
+                <div onclick="jsNota(349.23); activarTecla('.fa')" class="fa white"><span class="no-select">fa</span></div>
+                <div onclick="jsNota(392.00); activarTecla('.sol')" class="sol white"><span class="no-select">sol</span></div>
+                <div onclick="jsNota(440.00); activarTecla('.la')" class="la white"><span class="no-select">la</span></div>
+                <div onclick="jsNota(493.88); activarTecla('.si')" class="si white"><span class="no-select">si</span></div>
+                <div onclick="jsNota(523.25); activarTecla('.do8')" class="do8 white"><span class="no-select">do8</span></div>
             </div>
     
             <div class="black-keys">
-                <div onclick="jsNota(277.18)" class="doS black"><span class="no-select">do#</span></div>
-                <div onclick="jsNota(311.13)" class="reS black"><span class="no-select">re#</span></div>
-                <div onclick="jsNota(369.99)" class="faS black"><span class="no-select">fa#</span></div>
-                <div onclick="jsNota(415.30)" class="solS black"><span class="no-select">sol#</span></div>
-                <div onclick="jsNota(466.16)" class="laS black"><span class="no-select">la#</span></div>
+                <div onclick="jsNota(277.18); activarTecla('.doS')" class="doS black"><span class="no-select">do#</span></div>
+                <div onclick="jsNota(311.13); activarTecla('.reS')" class="reS black"><span class="no-select">re#</span></div>
+                <div onclick="jsNota(369.99); activarTecla('.faS')" class="faS black"><span class="no-select">fa#</span></div>
+                <div onclick="jsNota(415.30); activarTecla('.solS')" class="solS black"><span class="no-select">sol#</span></div>
+                <div onclick="jsNota(466.16); activarTecla('.laS')" class="laS black"><span class="no-select">la#</span></div>
             </div>
         </div>
-    </div>
-    
     </div>
     <script src="js/teclas.js"></script>
 </body>
